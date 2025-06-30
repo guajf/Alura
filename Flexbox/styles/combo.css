@@ -30,7 +30,7 @@
     justify-content: center;
     height: 100%;
 }
-
+    
 @media screen and (max-width: 1200px) {
     .combo__container {
         padding: 0 var(--padding-xxl);
@@ -45,5 +45,13 @@
 @media screen and (max-width: 730px) {
     .combo__container {
         padding: 0 var(--padding-m);
+    }
+
+    .combo__titulo {
+        font-size: var(--font-size-l);
+        line-height: var(--line-height-l);
+        text-align: center;
+        width: 100%;
+        max-width: 100%;
     }
 }
